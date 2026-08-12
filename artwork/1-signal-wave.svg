@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440">
+  <defs>
+    <filter id="glow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" seed="27" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer in="mono" result="faint">
+        <feFuncA type="table" tableValues="0 0.1"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="faint" mode="screen"/>
+    </filter>
+    <path id="wave" d="M-160 970 H390 C620 970 670 520 960 520 H1450 C1740 520 1790 970 2020 970 H2720"/>
+  </defs>
+
+  <rect width="2560" height="1440" fill="#0D1011"/>
+
+  <g fill="none" stroke-width="112" opacity="0.24" filter="url(#glow)">
+    <use href="#wave" stroke="#20C967" transform="translate(0 -225)"/>
+    <use href="#wave" stroke="#F23838" transform="translate(0 -75)"/>
+    <use href="#wave" stroke="#168DE2" transform="translate(0 75)"/>
+    <use href="#wave" stroke="#FFFF00" transform="translate(0 225)"/>
+  </g>
+
+  <g fill="none" stroke-width="112" filter="url(#grain)">
+    <use href="#wave" stroke="#20C967" transform="translate(0 -225)"/>
+    <use href="#wave" stroke="#F23838" transform="translate(0 -75)"/>
+    <use href="#wave" stroke="#168DE2" transform="translate(0 75)"/>
+    <use href="#wave" stroke="#FFFF00" transform="translate(0 225)"/>
+  </g>
+
+  <g fill="#F2F3EE">
+    <circle cx="960" cy="295" r="10"/>
+    <circle cx="960" cy="445" r="10"/>
+    <circle cx="960" cy="595" r="10"/>
+    <circle cx="960" cy="745" r="10"/>
+  </g>
+
+  <g fill="#F2F3EE" font-family="monospace" font-weight="700" letter-spacing="9">
+    <text x="90" y="120" font-size="28">RETRO KINETIC</text>
+    <text x="2470" y="1345" font-size="20" text-anchor="end" opacity="0.55">FOUR SIGNALS / ONE MOTION</text>
+  </g>
+</svg>

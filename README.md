@@ -41,7 +41,8 @@ An optional truecolor OpenCode theme is included at
 
 An optional LazyGit theme is included at
 [`integrations/lazygit.yml`](integrations/lazygit.yml). Install it as
-`~/.config/lazygit/config.yml`.
+`~/.config/lazygit/config.yml`; Omarchy does not install optional integrations
+automatically.
 
 ## Design Notes
 

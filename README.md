@@ -6,6 +6,9 @@ geometry.
 
 ![Retro Kinetic preview](preview-retro-kinetic.png)
 
+Includes three wallpapers. The kinetic system cube is the default; use
+`omarchy theme bg next` to cycle through the stripe and orbit alternatives.
+
 ## Install
 
 ```bash

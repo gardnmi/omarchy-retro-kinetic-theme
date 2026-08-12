@@ -4,7 +4,7 @@ A dark, graphic Omarchy theme inspired by retro instructional motion design:
 near-black fields, off-white type, electric primary colors, and bold outlined
 geometry.
 
-![Retro Kinetic preview](preview.png)
+![Retro Kinetic preview](preview-retro-kinetic.png)
 
 ## Install
 

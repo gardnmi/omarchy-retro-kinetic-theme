@@ -41,7 +41,7 @@ An optional truecolor OpenCode theme is included at
   stays inside the visual language instead of introducing unrelated hues.
 - ANSI cyan maps to signal red, giving terminal interfaces a regular red
   structural accent instead of reserving red only for errors.
-- The wallpaper is original artwork built from simple line geometry for this theme.
+- The wallpaper is original artwork built around a retro three-color convergence motif.
 
 ## Inspiration
 

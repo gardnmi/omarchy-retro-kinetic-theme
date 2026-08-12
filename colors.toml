@@ -1,0 +1,32 @@
+# Retro Kinetic palette for Omarchy v4.
+mode = "dark"
+
+accent = "#168DE2"
+selection = "#F2F3EE"
+muted = "#676D70"
+
+background = "#0D1011"
+dark_background = "#090B0C"
+darker_background = "#050607"
+lighter_background = "#1A1E20"
+
+foreground = "#F2F3EE"
+dark_foreground = "#A8ADAA"
+light_foreground = "#F7F7F2"
+bright_foreground = "#FFFFFF"
+
+red = "#F23838"
+yellow = "#FFD43B"
+orange = "#F27A38"
+green = "#79C267"
+cyan = "#4FC9C4"
+blue = "#168DE2"
+magenta = "#C86CE0"
+brown = "#8B6A51"
+
+bright_red = "#FF5252"
+bright_yellow = "#FFE36A"
+bright_green = "#9CDB7F"
+bright_cyan = "#76E0DB"
+bright_blue = "#4BAAF0"
+bright_magenta = "#E292F2"

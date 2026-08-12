@@ -1,0 +1,28 @@
+@define-color foreground #F2F3EE;
+@define-color background #0D1011;
+
+#workspaces button.active {
+  color: #168DE2;
+  border-bottom: 3px solid #168DE2;
+}
+
+#custom-update,
+#custom-screenrecording-indicator.active,
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active,
+#custom-voxtype.recording {
+  color: #F23838;
+}
+
+#battery.warning:not(.charging) {
+  color: #FFD43B;
+}
+
+#battery.critical:not(.charging) {
+  color: #F23838;
+}
+
+tooltip {
+  border: 2px solid #168DE2;
+  border-radius: 4px;
+}

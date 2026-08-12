@@ -32,6 +32,8 @@ The full terminal palette is defined in [`colors.toml`](colors.toml). Icons use
 - Near-black surfaces preserve the high-contrast editorial look.
 - Three-pixel blue borders echo the outlined cards and gauges of kinetic infographics.
 - Red and yellow are reserved for alerts, recording states, and warnings.
+- ANSI colors collapse onto blue, red, yellow, and off-white so terminal syntax
+  stays inside the visual language instead of introducing unrelated hues.
 - The wallpaper is original artwork built from simple line geometry for this theme.
 
 ## Inspiration

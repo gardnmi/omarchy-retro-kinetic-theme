@@ -28,6 +28,12 @@ omarchy theme install https://github.com/gardnmi/omarchy-retro-kinetic-theme
 The full terminal palette is defined in [`colors.toml`](colors.toml). Icons use
 `Yaru-blue`.
 
+Omarchy applies matching native themes to Chromium-family browsers, Neovim,
+Obsidian, Helix, btop, Walker, Mako, supported terminals, and the lock screen.
+Chromium may require a full restart after switching themes. Its Material UI
+derives elevated gray surfaces from the configured black seed rather than using
+the desktop background color literally.
+
 An optional truecolor OpenCode theme is included at
 [`integrations/opencode.json`](integrations/opencode.json). Install it as
 `~/.config/opencode/themes/retro-kinetic.json` and select `retro-kinetic` in

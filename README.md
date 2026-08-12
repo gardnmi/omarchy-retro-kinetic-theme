@@ -39,6 +39,10 @@ An optional truecolor OpenCode theme is included at
 `~/.config/opencode/themes/retro-kinetic.json` and select `retro-kinetic` in
 `~/.config/opencode/tui.json`.
 
+An optional LazyGit theme is included at
+[`integrations/lazygit.yml`](integrations/lazygit.yml). Install it as
+`~/.config/lazygit/config.yml`.
+
 ## Design Notes
 
 - Near-black surfaces preserve the high-contrast editorial look.

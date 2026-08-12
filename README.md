@@ -17,15 +17,20 @@ omarchy theme install https://github.com/gardnmi/omarchy-retro-kinetic-theme
 | Role | Hex |
 | --- | --- |
 | Background | `#0D1011` |
-| Raised background | `#1A1E20` |
+| Raised background | `#1A1D1E` |
 | Foreground | `#F2F3EE` |
 | Blue accent | `#168DE2` |
 | Signal red | `#F23838` |
-| Signal yellow | `#FFD43B` |
-| Muted | `#676D70` |
+| Signal yellow | `#FFD400` |
+| Muted | `#777C7A` |
 
 The full terminal palette is defined in [`colors.toml`](colors.toml). Icons use
 `Yaru-blue`.
+
+An optional truecolor OpenCode theme is included at
+[`integrations/opencode.json`](integrations/opencode.json). Install it as
+`~/.config/opencode/themes/retro-kinetic.json` and select `retro-kinetic` in
+`~/.config/opencode/tui.json`.
 
 ## Design Notes
 

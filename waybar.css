@@ -15,7 +15,7 @@
 }
 
 #battery.warning:not(.charging) {
-  color: #FFD43B;
+  color: #FFD400;
 }
 
 #battery.critical:not(.charging) {

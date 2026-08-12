@@ -21,7 +21,7 @@ omarchy theme install https://github.com/gardnmi/omarchy-retro-kinetic-theme
 | Foreground | `#F2F3EE` |
 | Blue accent | `#168DE2` |
 | Signal red | `#F23838` |
-| Signal yellow | `#FFD400` |
+| Signal yellow | `#FFEA00` |
 | Muted | `#777C7A` |
 
 The full terminal palette is defined in [`colors.toml`](colors.toml). Icons use

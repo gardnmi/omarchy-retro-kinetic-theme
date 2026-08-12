@@ -6,6 +6,9 @@ geometry.
 
 ![Retro Kinetic preview](preview-retro-kinetic.png)
 
+Includes two neon-grid wallpapers. Neon Drive is the default; use
+`omarchy theme bg next` to switch to the geometric grid landscape.
+
 ## Install
 
 ```bash
@@ -54,7 +57,7 @@ automatically.
   stays inside the visual language instead of introducing unrelated hues.
 - ANSI cyan maps to signal red, giving terminal interfaces a regular red
   structural accent instead of reserving red only for errors.
-- The wallpaper is original raster artwork built around four bold retro stripes.
+- Two neon-grid wallpapers extend the palette into a retro-futurist landscape.
 
 ## Inspiration
 

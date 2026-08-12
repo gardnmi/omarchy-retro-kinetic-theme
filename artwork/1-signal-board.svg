@@ -31,8 +31,8 @@
   </g>
 
   <g transform="rotate(-3 2030 560)">
-    <rect x="1800" y="410" width="460" height="300" rx="13" fill="#15191A" stroke="#FFEA00" stroke-width="8" filter="url(#yellow-glow)"/>
-    <text x="2030" y="500" fill="#FFEA00" font-family="monospace" font-size="30" font-weight="700" letter-spacing="12" text-anchor="middle">SIGNAL</text>
+    <rect x="1800" y="410" width="460" height="300" rx="13" fill="#15191A" stroke="#FFFF00" stroke-width="8" filter="url(#yellow-glow)"/>
+    <text x="2030" y="500" fill="#FFFF00" font-family="monospace" font-size="30" font-weight="700" letter-spacing="12" text-anchor="middle">SIGNAL</text>
     <path d="M1940 645 L2030 545 L2120 645 Z" fill="none" stroke="#F23838" stroke-width="10" stroke-linejoin="round"/>
     <circle cx="2030" cy="625" r="7" fill="#F23838"/>
   </g>

@@ -21,7 +21,7 @@ omarchy theme install https://github.com/gardnmi/omarchy-retro-kinetic-theme
 | Foreground | `#F2F3EE` |
 | Blue accent | `#168DE2` |
 | Signal red | `#F23838` |
-| Signal yellow | `#FFEA00` |
+| Signal yellow | `#FFFF00` |
 | Muted | `#777C7A` |
 
 The full terminal palette is defined in [`colors.toml`](colors.toml). Icons use
@@ -39,6 +39,8 @@ An optional truecolor OpenCode theme is included at
 - Red and yellow are reserved for alerts, recording states, and warnings.
 - ANSI colors collapse onto blue, red, yellow, and off-white so terminal syntax
   stays inside the visual language instead of introducing unrelated hues.
+- ANSI cyan maps to signal red, giving terminal interfaces a regular red
+  structural accent instead of reserving red only for errors.
 - The wallpaper is original artwork built from simple line geometry for this theme.
 
 ## Inspiration
